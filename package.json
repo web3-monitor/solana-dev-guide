@@ -1,0 +1,29 @@
+{
+  "name": "solana-dev-guide",
+  "version": "1.0.0",
+  "description": "solana从入门到放弃🐶 包含solana的入门级教程以及相关rpc节点的部署教程",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web3-monitor/solana-dev-guide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web3-monitor/solana-dev-guide/issues"
+  },
+  "homepage": "https://github.com/web3-monitor/solana-dev-guide#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.12",
+    "@solana/web3.js": "^1.98.0"
+  }
+}
